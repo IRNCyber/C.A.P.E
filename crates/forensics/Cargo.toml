@@ -1,0 +1,10 @@
+[package]
+name = "forensics"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+attribution-record = { path = "../attribution-record" }
+ledger = { path = "../ledger" }
+serde.workspace = true
+thiserror.workspace = true
+watermark = { path = "../watermark" }

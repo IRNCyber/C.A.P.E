@@ -1,0 +1,13 @@
+[package]
+name = "crypt-engine"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+aes-gcm.workspace = true
+attribution-record = { path = "../attribution-record" }
+bincode.workspace = true
+pqc-core = { path = "../pqc-core" }
+rand.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+zeroize.workspace = true

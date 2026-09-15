@@ -1,0 +1,13 @@
+[package]
+name="sender-cli"
+version.workspace=true
+edition.workspace=true
+[dependencies]
+anyhow.workspace=true
+attribution-record={path="../../crates/attribution-record"}
+bincode.workspace=true
+clap.workspace=true
+crypt-engine={path="../../crates/crypt-engine"}
+pqc-core={path="../../crates/pqc-core"}
+serde.workspace=true
+serde_json.workspace=true

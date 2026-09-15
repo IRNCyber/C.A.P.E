@@ -1,0 +1,9 @@
+[package]
+name = "watermark"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+attribution-record = { path = "../attribution-record" }
+thiserror.workspace = true
+[dev-dependencies]
+proptest = "1.5"

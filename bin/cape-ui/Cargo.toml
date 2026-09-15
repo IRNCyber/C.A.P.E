@@ -1,0 +1,19 @@
+[package]
+name = "cape-ui"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+attribution-record = { path = "../../crates/attribution-record" }
+bincode.workspace = true
+blake3.workspace = true
+eframe.workspace = true
+crypt-engine = { path = "../../crates/crypt-engine" }
+forensics = { path = "../../crates/forensics" }
+ledger = { path = "../../crates/ledger" }
+pqc-core = { path = "../../crates/pqc-core" }
+rand.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+watermark = { path = "../../crates/watermark" }

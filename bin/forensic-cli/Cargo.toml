@@ -1,0 +1,10 @@
+[package]
+name="forensic-cli"
+version.workspace=true
+edition.workspace=true
+[dependencies]
+anyhow.workspace=true
+clap.workspace=true
+forensics={path="../../crates/forensics"}
+ledger={path="../../crates/ledger"}
+serde_json.workspace=true

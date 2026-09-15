@@ -1,0 +1,7 @@
+C:\Users\rohan\RustroverProjects\C.A.P.E\target\debug\deps\sender_cli-e65bfd1089ef1da6.d: bin\sender-cli\src\main.rs
+
+C:\Users\rohan\RustroverProjects\C.A.P.E\target\debug\deps\libsender_cli-e65bfd1089ef1da6.rmeta: bin\sender-cli\src\main.rs
+
+bin\sender-cli\src\main.rs:
+
+# env-dep:CARGO_PKG_NAME=sender-cli

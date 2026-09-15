@@ -1,0 +1,15 @@
+[package]
+name = "ledger"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+attribution-record = { path = "../attribution-record" }
+bincode.workspace = true
+blake3.workspace = true
+pqc-core = { path = "../pqc-core" }
+sled.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+pqc-core = { path = "../pqc-core" }
+tempfile = "3.13"
